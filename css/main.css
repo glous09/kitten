@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  margin: 0;
+  padding: 0;
+}
+
+.col-12 {
+  width: 100%;
+  background-image: url("../assets/images/sunny-day.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 670px;
+}
+
+.col-3 {
+  width: 25%;
+  height: 100px;
+  padding-top: 400px;
+}
+
+.col-3 > img {
+  width: 100%;
+}
+
+.col-9 {
+  width: 75%;
+  background-image: url("../assets/images/dawn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 650px;
+  padding-top: 450px;
+}
+
+.col-6 {
+  width: 50%;
+  height: 100px;
+}
+
+.col-6 > img {
+  width: 100%;
+
+}
+.col-8 {
+  width: 66.66%;
+  background-image: url("../assets/images/dawn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 650px;
+  padding-top: 450px;
+}
+
+.col-5 {
+  width: 41.66%;
+  height: 100px;
+}
+
+.col-5 > img {
+  width: 100%;
+}
+
+@media (max-width: 769px) {
+  .col-12 {
+     display: none;
+     background-image: url("../assets/images/sunny-day.jpg");
+    }
+  }
+@media (max-width: 768px){
+    .col-9 {
+      display: block;
+      background-image: url("../assets/images/dawn.png");
+      width: 100%;
+    }
+}
+@media (max-width: 481px){
+    .col-9 {
+      display:none;
+      background-image: url("../assets/images/dawn.png");
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .col-8 {
+      display: block;
+      background-image: url("../assets/images/night.jpg");
+      width: 100%;
+    }
+}
