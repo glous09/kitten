@@ -1,8 +1,8 @@
 *{
   box-sizing: border-box;
   margin: 0;
-  margin: 0 auto;
   padding: 0;
+  margin: 0 auto;
 }
 
 .container {
@@ -17,9 +17,8 @@
   background-image: url("../assets/images/sunny-day.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  height: 670px;
+  background-position:top;
+  height: 100vh;
 }
 
 .col-3 {
@@ -34,47 +33,111 @@
 
 .col-9 {
   width: 75%;
+  display: none;
   background-image: url("../assets/images/dawn.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  height: 650px;
-  padding-top: 450px;
+  background-position: top;
+ 
+  height: 100vh;
 }
 
 .col-6 {
   width: 50%;
   height: 100px;
+  padding-top: 450px;
 }
 
 .col-6 > img {
-  width: 100%;
+  width: 80%;
 
 }
 .col-8 {
   width: 66.66%;
-  background-image: url("../assets/images/dawn.png");
+  display: none;
+  background-image: url("../assets/images/night.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-  height: 650px;
+  background-position: top;
+  height: 100vh;
   padding-top: 450px;
+  padding: 0;
+  margin: 0;
 }
 
 .col-5 {
   width: 41.66%;
   height: 100px;
+  padding-top: 400px;
 }
 
 .col-5 > img {
   width: 100%;
 }
 
-@media (max-width: 769px) {
+
+
+@media only screen and (max-width: 1200px) {
+    
+    .col-12 { display: block; } 
+    
+    }
+
+@media only screen and (max-width: 1024px) {
+     .col-9 { 
+         display: block;
+         width: 100%;
+    }
+    
+     .col-12 { display: none; }  
+    }
+
+@media only screen and (max-width: 768px){
+    
+    .col-8 {
+        display: block;
+        width: 100%;
+    }
+    .col-9 { display: none; }
+    
+}
+
+
+
+/*@media only screen and (max-width: 1024px) {
+    
+    .col-9 { display: block; }   
+    }*/
+    
+
+/*@media only screen and (max-width: 1023px){
+    
+     .col-12 { 
+       display: none;
+        background-image: url("../assets/images/sunny-day.jpg");
+    }
+    
+     .col-9 { width: 100%; } 
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .col-9 { display: none; } 
+    
+}*/
+
+
+    
+    
+    
+
+    
+
+
+/*@media (max-width: 769px) {
   .col-12 {
-     display: none;
+     display: none;    
      background-image: url("../assets/images/sunny-day.jpg");
     }
   }
@@ -100,3 +163,4 @@
       width: 100%;
     }
 }
+*/
