@@ -4,15 +4,15 @@ Crea una página web donde se muestre un paisaje y un gatito diferente a medida 
 
 *Sunny
 
-![sunny day] url(assets/images/screen-sunny.png)
+![sunny day](assets/images/screen-sunny.png)
 
 *Dawn
 
-![dawn] url(assets/images/dawn-screen.png)
+![dawn](assets/images/dawn-screen.png)
 
 *Nigth 
 
-![nigth] url(assets/images/night-screen.png)
+![nigth](assets/images/night-screen.png)
 
 El sitio debe verse como en las imagenes anteriores.
 
